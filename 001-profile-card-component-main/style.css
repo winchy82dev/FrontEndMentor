@@ -21,7 +21,7 @@ body{
 }
 /* Layout */
 section.container {
-    width: 1440px;
+    width: 100%;
     margin: 0 auto;
     margin-top: 15%;
     text-align: center; 
@@ -55,9 +55,9 @@ h2 > span {
     color: var(--darkGrayishBlue);
 }
 h3{
-    text-transform: capitalize;
     padding-top: 5px;
     padding-bottom: 30px;
+    text-transform: capitalize;
     color: var(--neutralDarkGray);
     font-size: 16px;
     font-weight: 400;
@@ -80,9 +80,9 @@ li{
 }
 li span{
     padding-top: 5px;
-    text-transform: capitalize;
     font-size: 14px;
     font-weight: 400;
+    text-transform: capitalize;
     color: var(--darkGrayishBlue);
 }
 
