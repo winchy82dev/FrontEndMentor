@@ -1,1 +1,7 @@
-sources
+sources/
+**/settings.json
+
+# VSCode
+.vscode
+
+

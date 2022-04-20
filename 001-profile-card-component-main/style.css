@@ -13,12 +13,11 @@
 body{
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
-    background: url("images/bg-pattern-top.svg") ,
-    url("images/bg-pattern-bottom.svg");
+    background: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
     background-attachment: fixed;
     background-color: var(--darkCyan);
     background-repeat: no-repeat, no-repeat;
-    background-position: top left, bottom right;  
+    background-position: -71% 265%, 151% -277%;  
 }
 /* Layout */
 section.container {
@@ -64,10 +63,8 @@ h3{
     font-weight: 400;
 }
 footer{
+    border-top: thin solid var(--neutralDarkGray);
     height: 100px;
-}
-hr{
-    color: var(--neutralDarkGray);;
 }
 ul{
     text-align: center;
@@ -92,6 +89,9 @@ li span{
 /* Mobile version */
 @media screen and (max-width: 625px) {
     section.container{
-        width: 520px;
+        width: 500px;
+    }
+    body{
+        background-position: 149% 147%, -55% -67%;
     }
 }
